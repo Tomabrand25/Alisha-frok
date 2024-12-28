@@ -2,14 +2,14 @@ module. exports. config = {
     name: "autoreset",
     version: "1.0.1",
     hasPermssion: 0,
-    credits: "ARIF-BABU",
+    credits: "SHAAN-KHAN",
     description: "AUTO RESTART",
     commandCategory: "system",
     cooldowns: 5
 }
 module. exports. handleEvent = async function({ api, event, args, Users,Threads }) {
   const moment = require("moment-timezone");
-  var timeNow = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+  var timeNow = moment.tz("Asia/Karachi").format("HH:mm:ss");
   var idad = global.config.ADMINBOT;    
   console.log(timeNow)
   var seconds = moment.tz("Asia/Kolkata").format("ss");
@@ -35,6 +35,6 @@ module. exports. handleEvent = async function({ api, event, args, Users,Threads 
 }
 module. exports. run = async  ({ api, event, args }) => {
       const moment = require("moment-timezone");
-      var timeNow = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+      var timeNow = moment.tz("Asia/Karachi").format("HH:mm:ss");
         api.sendMessage(`${timeNow}`, event.threadID)
                           }
