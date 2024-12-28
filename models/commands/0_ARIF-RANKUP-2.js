@@ -2,7 +2,7 @@ module.exports.config = {
         name: "rankup",
         version: "7.3.1",
         hasPermssion: 1,
-        credits: "ARIF BABU",
+        credits: "SHAAN KHAN",
         description: "Announce rankup for each group, user",
         commandCategory: "Edit-IMG",
         dependencies: {
@@ -105,7 +105,7 @@ module.exports.languages = {
     "on": "on",
     "off": "off",
     "successText": "success notification rankup!",
-    "levelup": "✧═══•❁•DIL KI BAAT•❁•═══✧ {level}",
+    "levelup": "✧═══•❁•𝙈𝙐𝘽𝘼𝙍𝘼𝙆 𝙃𝙊 𝘼𝙋𝙆𝘼 𝙀𝙆 𝙊𝙐𝙍 𝙇𝙀𝙑𝙀𝙇 𝙃𝙊 𝙂𝘼𝙔𝘼💞•❁•═══✧ {level}",
   }
 }
 module.exports.run = async function({ api, event, Threads, getText }) {
