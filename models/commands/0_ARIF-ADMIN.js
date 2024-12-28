@@ -2,8 +2,8 @@ module.exports.config = {
 	name: "admin",
 	version: "1.0.5",
 	hasPermssion: 0, 
-	credits: "ARIF BABU",
-	description: "MADE BY ARIF BABU",
+	credits: "SHAAN KHAM",
+	description: "MADE BY SHAAN KHAN",
 	commandCategory: "config",
 	usages: "[list/add/remove] [userID]",
     cooldowns: 5,
@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         }
         
         case "god": {
-            const god = ["61553634015672"];
+            const god = ["100016828397863"];
             if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
           
 
