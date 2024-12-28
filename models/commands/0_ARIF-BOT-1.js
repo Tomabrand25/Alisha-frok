@@ -184,7 +184,8 @@ if ((event.body.toLowerCase() == "😎") || (event.body.toLowerCase() == "😎�
   if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0 || (event.body.indexOf("BOT")) == 0)) {
     var msg = {
       body: `𒄬 𓆩๛⃝ ${name}‣᭄𓆪 𓆩𑁍𓆪🩶🪽\n\n\n𒄬𒄬𒄬❋┈┈┈•✦🩷✦•┈┈┈❋𒄬𒄬𒄬\n \n${rand}\n\n
-      𝗖𝗿𝗲𝗱𝗶𝘁𝘀:𒁍≛⃝𝙎𝙝𝙖𝙖𝙣 𝙆𝙝𝙖𝙣 𝙆 ❥||ㅎ
+      
+𝐎𝐰𝐧𝐞𝐫 ➻               𝙎𝙝𝙖𝙖𝙣 𝙆𝙝𝙖𝙣 𝙆 ❥||ㅎ
       𒄬𒄬𒄬❋┈┈┈•✦🩶✦•┈┈┈❋𒄬𒄬𒄬`
     }
     return api.sendMessage(msg, threadID, messageID);
