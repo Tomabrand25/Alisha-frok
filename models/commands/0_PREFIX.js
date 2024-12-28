@@ -2,7 +2,7 @@ module.exports.config = {
   name: "prefix",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Mr Chand",
+  credits: "Mr Shaan",
   description: "See the bot prefix",
   commandCategory: "For admin",
   usages: "out prefix",
@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ event, api, Threads }) => {
   var { threadID, messageID, body, senderID } = event;
   //if (senderID == global.data.botID) return;
-  if ((this.config.credits) != "Mr Chand") { return api.sendMessage(`Changed credits!`, threadID, messageID)}
+  if ((this.config.credits) != "Mr Shaan") { return api.sendMessage(`Changed credits!`, threadID, messageID)}
   function out(data) {
     api.sendMessage(data, threadID, messageID)
   }
@@ -26,9 +26,9 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
-        return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🚀AYAN-ROBOT PREFIX ⇉ [ ${prefix} ]`)
+        return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🚀SHAAN-ROBOT PREFIX ⇉ [ ${prefix} ]`)
       }
-      else return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🛸AYAN-ROBOT PREFIX  ⇉ 👉🏻 [ ${prefix} ]  `    + data.PREFIX )
+      else return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🛸SHAAN-ROBOT PREFIX  ⇉ 👉🏻 [ ${prefix} ]  `    + data.PREFIX )
     }
 
   });
