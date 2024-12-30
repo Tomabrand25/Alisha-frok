@@ -91,7 +91,7 @@ module.exports = {
       await api.sendMessage(
         {
           attachment: fs.createReadStream(downloadPath),
-          body: `🖤 Title: ${topResult.title}\n\n Here is your ${type === "audio" ? "audio" : "video"} 🎧:`,
+          body: `🖤 Title: ${topResult.title}\n\n Ye lo bhai apki ${type === "audio" ? "audio" : "video"} 🎧:`,
         },
         event.threadID,
         () => {
