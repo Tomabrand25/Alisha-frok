@@ -35,7 +35,7 @@ module.exports = {
     }
 
     const processingMessage = await api.sendMessage(
-      "✅ Apki Request Jari Hai Intezar Kare Shukar ya ...",
+      "✅ please Wait Karo Apki Song Jaldi Aane Wala Hai❣️ ...",
       event.threadID,
       null,
       event.messageID
@@ -92,7 +92,7 @@ module.exports = {
         {
           attachment: fs.createReadStream(downloadPath),
           body: `🖤 Title: ${topResult.title}\n\n »»𝑶𝑾𝑵𝑬𝑹««★™  »»𝑺𝑯𝑨𝑨𝑵 𝑲𝑯𝑨𝑵««
-          𝙔𝙚 𝙇𝙤 𝘽𝙝𝙖𝙞 𝘼𝙥𝙠𝙞 ${type === "audio" ? "audio" : "video"} 🎧:`,
+          🥀𝒀𝑬 𝑳𝑶 𝑩𝑨𝑩𝒀 𝑨𝑷𝑲𝑰💞 ${type === "audio" ? "audio" : "video"} 🎧:`,
         },
         event.threadID,
         () => {
