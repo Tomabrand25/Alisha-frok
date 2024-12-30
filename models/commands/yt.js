@@ -35,7 +35,7 @@ module.exports = {
     }
 
     const processingMessage = await api.sendMessage(
-      "✅ please Wait Karo Apki Song Jaldi Aane Wala Hai❣️ ...",
+      "✅ Please Wait Karo Apki Song Jaldi Aane Wali Hai❣️ ...",
       event.threadID,
       null,
       event.messageID
