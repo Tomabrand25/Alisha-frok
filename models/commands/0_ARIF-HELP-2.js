@@ -67,7 +67,7 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `❣️  [${++i}] → ${prefix}${item} ♥️ \n`;
 
 
-    const siu = `┏━━━━━┓\n    🥀𝗦𝗛𝗔𝗔𝗡-𝗞𝗛𝗔𝗡❣️                    ✧═══•❁😛❁•═══✧\n┗━━━━━┛\n\n\n✧═══❁♥️TOTAL COMMAND LIST ♥️❁═══✧`;
+    const siu = `┏━━━━━┓\n    🥀𝗔𝗟𝗜𝗦𝗛𝗔-𝗥𝗔𝗡𝗜❣️                    ✧═══•❁😛❁•═══✧\n┗━━━━━┛\n\n\n✧═══❁♥️TOTAL COMMAND LIST ♥️❁═══✧`;
 
  const text = `PAGE ❣️  [ ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)} ]\n\nOR COMMAND KE LIYE HAI MENU TYPE KRO\nTHIS BOT IS MADE BYE MR SHAAN KHAN 🙂✌️\n\n\n\n❁ ═════ ❃SHAAN-KHAN❃ ═════ ❁`;
 
