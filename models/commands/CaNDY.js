@@ -20,7 +20,7 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰\n\n 𝐒𝐇𝐀𝐀𝐍\ (𝙇𝙊𝙑𝙀𝙇𝙔 𝘽𝙊𝙔 𝙎𝙃𝘼𝘼𝙉 𝙆𝙃𝘼𝙉  )(•◡•)\n\n𝐀𝐠𝐞 : 23\n\n𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐖𝐢𝐭𝐡 : ESE BATE NAHI BATAI JATE\n\n𝐅𝐫𝐨𝐦 : 𝔹𝔸ℕℕ𝕌 𝕂ℙ𝕂\n\n𝐒𝐭𝐮𝐝𝐲 : 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠\n\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com\n\n𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : +923368783346 \n\n میں نے خاموش رہ کے دیکھا ہے لوگ واقعی بھول جاتے ہیں...🙂!❤🙂♣️");
+a("🔰𝙊𝙒𝙉𝙀𝙍 𝙄𝙉𝙁𝙊🔰\n\n 𝘼𝙇𝙄𝙎𝙃𝘼\ (𝙇𝙊𝙑𝙀𝙇𝙔 𝙂𝙄𝙍𝙇 𝘼𝙇𝙄𝙎𝙃𝘼 𝙍𝘼𝙉𝙄  )(•◡•)\n\n𝐀𝐠𝐞 : 19\n\n𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 𝐖𝐢𝐭𝐡 : ESE BATE NAHI BATAI JATE\n\n𝐅𝐫𝐨𝐦 : 𝙄𝙎𝙇𝘼𝙈𝘽𝘼𝘿\n\n𝐒𝐭𝐮𝐝𝐲 : 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐢𝐧𝐠\n\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com\n\n𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : 𝙉𝙃𝙄 𝘿𝙀𝙉𝙄😁 \n\n میں نے خاموش رہ کے دیکھا ہے لوگ واقعی بھول جاتے ہیں...🙂!❤🙂♣️");
 
 
 }
