@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "Mod by John Lester",
+  credits: "Mod by John Shaan",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -34,7 +34,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
   
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "admin")) {
-     return api.sendMessage("𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 𝗦𝗛𝗔𝗔𝗡 𝗞𝗛𝗔𝗠 𝗛𝗔𝗶🥀🖤", threadID);
+     return api.sendMessage("𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗟𝗜𝗦𝗟𝗜 𝗥𝗔𝗡𝗜 𝗛𝗔𝗶🥀🖤", threadID);
    };
 if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simi")) {
      return api.sendMessage("Sim Sim Na KRr IjjaT Sy MeRa Prefix LaGa 0or Bt kRr ITna Free Nhi kRta Me 😎🤞", threadID);
@@ -497,7 +497,7 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `┏━━ೋ•  •ೋ━━┓\n       𓆩»»𝑶𝑾𝑵𝑬𝑹««★™»»𝑺𝑯𝑨𝑨𝑵 𝑲𝑯𝑨𝑵««𓆩๏𓆪\n┗━━ೋ•  •ೋ━━┛\n\n「 𓆩⃝${name}𓆩๏𓆪 」  \n\n❥──────────────❥\n\n    ${rand}\n\n❥──────────────❥`
+      body: `┏━━ೋ•  •ೋ━━┓\n       𓆩»»𝑶𝑾𝑵𝑬𝑹««★™»»𝑨𝑳𝑰𝑺𝑯𝑨 𝑹𝑨𝑵𝑰««𓆩๏𓆪\n┗━━ೋ•  •ೋ━━┛\n\n「 𓆩⃝${name}𓆩๏𓆪 」  \n\n❥──────────────❥\n\n    ${rand}\n\n❥──────────────❥`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
