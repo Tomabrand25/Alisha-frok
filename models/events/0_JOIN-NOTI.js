@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event }) {
                 const fs = require("fs");
                 return api.sendMessage("Assalamu Alaikum Everyone🥀🥀", event.threadID, () => api.sendMessage({body:`🌺Shaan🦋🌺 CONNECTED«
 
-Bot Made By SHAAN KHAN K☘️
+Bot Made By ALISHA RANI☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -45,21 +45,21 @@ USE HELP TO SEE COMMAND
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-OWNER: 𝐒𝐇𝐀𝐀𝐍
+OWNER: 𝐀𝐋𝐈𝐒𝐇𝐀
 
 ♻️Facebook: 
 
-https://www.facebook.com/profile.php?id=100016828397863&mibextid=ZbWKwL
+https://www.facebook.com/profile.php?id=61559716922704&mibextid=ZbWKwL
 
 Youtube Site : N/A
 
 ☢️ INSTAGRAM: N/A
 
-https://www.instagram.com/shankhank345?igsh=MXVneXZ6bzR4bHhvcg==￼
+https://www.instagram.com/Alisharani234?igsh=MXVneXZ6bzR4bHhvcg==￼
 
-☣️Email: shankhank345@gmail.com
+☣️Email: Alisharani234@gmail.com
 
-⚠️Wp: +92 3368783346 `, attachment: fs.createReadStream(__dirname + "/cache/lv_0_20241230004552.mp4")} ,threadID));
+⚠️Wp: +92 nahi hai😁😁 `, attachment: fs.createReadStream(__dirname + "/cache/lv_0_20241230004552.mp4")} ,threadID));
         }
         else {
                 try {
