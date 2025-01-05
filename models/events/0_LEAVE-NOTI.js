@@ -21,7 +21,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
   const data = global.data.threadData.get(parseInt(threadID)) || (await Threads.getData(threadID)).data;
   const name = global.data.userName.get(event.logMessageData.leftParticipantFbId) || await Users.getNameUser(event.logMessageData.leftParticipantFbId);
   const type = (event.author == event.logMessageData.leftParticipantFbId) ? "Khud left kar gaya😐👈" : "Admin ne gusse me Nikal diya 😐👈";
-  (typeof data.customLeave == "undefined") ? msg = "┏━━━━━┓\n     SHAAN-KHAN                   ✧═══•❁😎❁•═══✧\n┗━━━━━┛\n\n\n SUNA HA IS GROUP ME EK THARKI KAM HO GAYA 😀👈\nNAME  𒁍  {name}\nREJAN  𒁍 {type} 🤐✌️\n◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆\n\nBYE BYE THARKI INSAAN GOOD{session}\n{time} ♥️♥️" : msg = data.customLeave;
+  (typeof data.customLeave == "undefined") ? msg = "┏━━━━━┓\n     ALISHA-RANI                   ✧═══•❁😎❁•═══✧\n┗━━━━━┛\n\n\n SUNA HA IS GROUP ME EK THARKI KAM HO GAYA 😀👈\nNAME  𒁍  {name}\nREJAN  𒁍 {type} 🤐✌️\n◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆━◆\n\nBYE BYE THARKI INSAAN GOOD{session}\n{time} ♥️♥️" : msg = data.customLeave;
   msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type);
 
   var link = [  
